@@ -1,0 +1,190 @@
+#include <iostream>
+#define maxtree 100
+using namespace std;
+
+struct node 
+{    
+	node * leftpt;
+	node * rightpt;
+	int data;
+};
+struct Tree
+{
+    node * tree;
+};
+struct cirqueue
+{
+    int front,rear;
+    Tree data[maxtree];
+    int count;
+}
+void InitialTree(Tree tree)
+{
+    tree->data == -1;
+    tree->leftpt == NULL;
+    tree->rightpt == NULL;
+}
+void PreOrder(Tree tree)
+{
+    if( tree->leftpt == NULL && tree->rightpt == NULL )
+    {
+        cout << tree->data << endl ;    
+        return ;
+    }
+    PreOrder(tree->leftpt);
+    PreOrder(tree->rightpt);
+}
+void InOrder(Tree tree)
+{
+    InOrder(tree->leftpt);
+    if( tree->leftpt == NULL && tree->rightpt == NULL )
+    {
+        cout << tree->data << endl ;    
+        return ;
+    }
+    InOrder(tree->rightpt);
+}
+void NextOrder(Tree tree)
+{
+    NextOrder(tree->leftpt);
+    NextOrder(tree->rightpt);
+    if( tree->leftpt == NULL && tree->rightpt == NULL )
+    {
+        cout << tree->data << endl ;    
+        return ;
+    }
+}
+void void NrPreOrder(Tree tree)
+{
+    int top = -1;
+    node * stack[maxtree];
+    node * s = tree;
+    if( tree-> leftpt == NULL && tree-> rightpt == NULL )
+        return ;
+    printf("%d",s->data);
+    stack[++top] = s;
+    s = s->leftpt;
+    while(  s != NULL || top != -1 )
+    {
+        while( s != NULL )
+        {
+            printf("%d",s->data);
+            if( 0 <= top && top <= 100 )
+            {
+                stack[++top] = s;
+                s = s->leftpt;
+            }
+            else if( top > 100 )
+            {
+                printf("Õ»ÒÑÂú£¡\n");
+                return ;
+            }
+        }
+        if( top == -1 )
+        {
+            printf("Õ»Îª¿Õ!\n");
+            return ;
+        }
+        s = stack[top--];
+        s = s->rightpt;
+    }
+}
+void NrInOrder(Tree tree)
+{
+    int top = -1;
+    node * stack[maxtree];
+    node * s = tree;
+    if( tree-> leftpt == NULL && tree-> rightpt == NULL )
+        return ;
+    stack[++top] = s;
+    s = s->leftpt;
+    while(  s != NULL || top != -1 )
+    {
+        while( s != NULL )
+        {
+            if( 0 <= top && top <= 100 )
+            {
+                stack[++top] = s;
+                s = s->leftpt;
+            }
+            else if( top > 100 )
+            {
+                printf("Õ»ÒÑÂú£¡\n");
+                return ;
+            }
+        }
+        if( top == -1 )
+        {
+            printf("Õ»Îª¿Õ!\n");
+            return ;
+        }
+        s = stack[top--];
+        printf("%d",s->data);
+        s = s->rightpt;
+    }
+}
+void NrNextOrder(Tree tree)
+{
+    int top = -1;
+    node * stack[maxtree];
+    node * s = tree;
+    if( tree-> leftpt == NULL && tree-> rightpt == NULL )
+        return ;
+    stack[++top] = s;
+    s = s->leftpt;
+    while(  s != NULL || top != -1 )
+    {
+        while( s != NULL )
+        {
+            if( 0 <= top && top <= 100 )
+            {
+                stack[++top] = s;
+                s = s->leftpt;
+            }
+            else if( top > 100 )
+            {
+                printf("Õ»ÒÑÂú£¡\n");
+                return ;
+            }
+        }
+        if( top == -1 )
+        {
+            printf("Õ»Îª¿Õ!\n");
+            return ;
+        }
+        s = stack[top--];
+        s = s->rightpt;
+        if( s->right == NULL )
+            printf("%d",s->data);
+    }
+}
+void levelorder(Tree tree)
+{
+    Tree t;
+    cirqueue queue,*q = queue;
+    q->front = q->rear = q->count = 0;
+    q->data[q->front] = tree;
+    front ++;
+    count ++;
+    while( q->count )
+    {
+        
+        if(q->data[q->front])
+        {
+            t = q->data[q->front];
+            
+            cout << t->data;
+            
+        }
+        
+    }
+    
+    
+    
+    
+}
+int main()
+{
+    
+    return 0;
+}
