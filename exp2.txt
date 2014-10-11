@@ -2,6 +2,7 @@
 #define maxtree 100
 using namespace std;
 
+
 struct node 
 {    
 	node * leftpt;
