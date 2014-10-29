@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//WebRoot/login.jsp=UTF-8
+encoding//WebRoot/login_conf.jsp=UTF-8
+encoding//WebRoot/login_failure.jsp=UTF-8
+encoding//WebRoot/login_success.jsp=UTF-8
