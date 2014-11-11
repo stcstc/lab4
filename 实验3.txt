@@ -1,4 +1,4 @@
-#define VexNUM 15;
+#define VexNUM 15;   
 #define EdgeNUM 105;
 bool visited[NUM];
 int dfn[NUM];
