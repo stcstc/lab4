@@ -1,7 +1,9 @@
 package net.hncu.struts2.action;
 import org.apache.struts2.ServletActionContext;
 import login.LoginCheck;
-public class LoginAction {
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction  {
 	private String uname;
 	private String upassword;
 	
@@ -16,12 +18,13 @@ public class LoginAction {
 	}
 	public String getUpassword()
 	{
-		return uname;
+		return upassword;
 	}
 	public void setUpassword(String upassword)
 	{
 		this.upassword = upassword;
 	}
+	//执行输入校验
 	
 	public String execute()throws Exception
 	{

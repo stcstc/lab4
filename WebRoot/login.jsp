@@ -3,7 +3,7 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-
+<%@taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
@@ -24,25 +24,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     <h2>用户登录</h2> <br>
+    <a href="http://fam:8080/my/register.jsp">注册</a>
     <%--登录表单 --%>
-    <form action="login" method="post">
-    <table>
-    	<tr>
-    		<td>用户名：</td>>
-    		<%--接受用户输入的用户名，其name属性为uname --%>
-    		<td><input type="text" name="uname"></td>
-    	</tr>
-    	<tr>
-    		<td>密&nbsp;&nbsp;码:</td>>
-    		<%--接受用户输入的密码，其name属性为upassword --%>
-    		<td><input type="password" name="upassword"></td>
-    	</tr>
-    	<tr>
-    		<%--登陆按钮和重置按钮 --%>
-    		<td><input type="submit" value="登陆"></td>
-    		<td><input type="submit" value="重置"></td>
-    	</tr>	
-    </table>
-    </form>
+    <s:form action="login">
+    	<s:textfield name="uname" label="用户名"></s:textfield>
+    	<s:password name="upassword" label="密码"></s:password>
+    	<s:submit ></s:submit>
+    	<s:reset ></s:reset>
+    </s:form>
   </body>
 </html>

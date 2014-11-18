@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+
 <struts>
 <include file="struts-default.xml"/>
 	<package name="struts2" extends="struts-default" namespace="/">
 		<action name="login" class="net.hncu.struts2.action.LoginAction" method="execute">
 			<result name="success">/login_success.jsp</result>
 			<result name="failure">/login_failure.jsp</result>
+			<result name="input">/login.jsp</result>
 		</action>
-	
-	
 	
 	</package>
 </struts>    
