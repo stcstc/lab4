@@ -1,0 +1,24 @@
+[ 2014-11-14T11:36:51+08:00 ] 127.0.0.1 /index.php/Index/delete_data()
+ERR: 非法操作:delete_data()
+
+[ 2014-11-14T11:44:39+08:00 ] 127.0.0.1 /index.php/Index/delete_data()
+ERR: 非法操作:delete_data()
+
+[ 2014-11-14T11:48:45+08:00 ] 127.0.0.1 /index.php/home/Index/login
+ERR: 模板不存在[./App/Modules/home/Tpl/Index/sdaaa.html]
+
+[ 2014-11-14T12:08:16+08:00 ] 127.0.0.1 /index.php/home/Index/del
+ERR: 模板不存在[./App/Modules/home/Tpl/Index/index.html.html]
+
+[ 2014-11-14T13:01:59+08:00 ] 127.0.0.1 /index.php/home/Index/del
+ERR: 参数错误或者未定义:vi
+
+[ 2014-11-14T13:02:57+08:00 ] 127.0.0.1 /index.php/home/Index/del
+ERR: 参数错误或者未定义:vi
+
+[ 2014-11-14T20:46:54+08:00 ] 127.0.0.1 /index.php/home/Index/del.html
+ERR: 参数错误或者未定义:vi
+
+[ 2014-11-14T20:47:45+08:00 ] 127.0.0.1 /index.php/home/Index/del.html
+ERR: 参数错误或者未定义:vi
+
