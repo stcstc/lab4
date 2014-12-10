@@ -245,22 +245,10 @@ class IndexAction extends Action{
 		$MOD= M('classes');
 		$pw=$_POST["student"];
 		$st=$_POST["mima"];
-		//echo $pw;
-		//echo $st;
 		$Model->create();		
-		//$Model->student=$st;
-		//$Model->mima=$pw;
-		
 		$Model->add();
-		//$MOD->create();
-		
-		//$MOD->student=$st;
-		//$MOD->password=$pw;
-		//$MOD->add();
-		//$this->assign('list',$data);
 		$this->display('index');
     }
-	
 	public function joinintr(){
         $Model= M('teachers');
 		$MOD= M('classes');
@@ -289,11 +277,6 @@ class IndexAction extends Action{
 		$User = M('result');
 		$pw=$_POST["password"];
 		$st=$_POST["student"];
-		//$Model->find(2);
-		//echo $Model->student;
-		//$fields = $Model->getDbFields();
-		//echo 11;
-		//echo $st;
 		$num=$Model->where("(student='".$st."') AND (mima='".$pw."')")->find();
 		if($num==0)
 		$this->error("denglushibai");
@@ -309,7 +292,6 @@ class IndexAction extends Action{
 		$this->display("show");
 		}
 		}
-		
 		public function logintr(){
 	    $Model= M('teachers');
 		$MOD= M('classes');
@@ -317,13 +299,6 @@ class IndexAction extends Action{
 		$MD = M('result');
 		$tr=$_POST["teacher"];
 		$pw=$_POST["password"];
-		
-		//$Model->find();
-		//echo $Model->student;
-		//$fields = $Model->getDbFields();
-		//echo 11;
-		//echo $tr;
-		//echo $pw;
 		$num=$Model->where("(teacher='".$tr."') AND (mima='".$pw."')")->find();
 		if($num==0)
 		$this->error("denglushibai");

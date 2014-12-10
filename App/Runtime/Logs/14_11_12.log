@@ -1,9 +1,0 @@
-[ 2014-11-12T17:27:18+08:00 ] 127.0.0.1 /index.php/Index/verify/
-ERR: 非法操作:verify
-
-[ 2014-11-12T17:27:23+08:00 ] 127.0.0.1 /index.php/Index/verify/
-ERR: 非法操作:verify
-
-[ 2014-11-12T17:28:15+08:00 ] 127.0.0.1 /index.php/home/Index/insert.html
-ERR: 模板不存在[./App/Modules/home/Tpl/Index/abc.html]
-

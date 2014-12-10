@@ -3,63 +3,53 @@
  <head>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>教师预约系统</title>
- 
-	<style type="text/css">
-	*{ padding: 0; margin: 0;font-size:16px; font-family: "微软雅黑"} 
-	div{ padding: 3px 20px;} 
-	body{
-	background: #fff;
-	color: #333;
-	background-color: #99CCFF;
-	background-image: url();
-}
-	h2{font-size:36px}
-	h3{font-size:36px;font-weight:normal}
-	a{text-decoration:none; color:#174B73; border-bottom:1px dashed gray}
-	a:hover{color:#00FF00; border-bottom:1px dashed gray}
-	div.result{border:1px solid #d4d4d4; background:#FFC;color:#393939; padding:8px 20px;float:auto;margin:2px}
-	body,td,th {
-	color: #0000FF;
-	font-weight: bold;
-}
-a:link {
-	color: #00CCCC;
-}
-a:visited {
-	color: #FF0000;
-}
-a:active {
-	color: #99CC99;
-}
-.STYLE2 {
-	font-size: xx-large;
-	color: #CC0033;
-}
-    </style>
  </head>
-  
-  
- 
-  <body bgcolor="#d0d0d0">
- <div class="main" style="background:green;float:left;width:30%">>
+
+ <div class="main" style="background:green;float:left;width:30%">
  <h2>教师预约系统</h2>
- <table cellpadding=2 cellspacing=2>
-  <tr>
-  <td></td>
-  <td></td>
-  <td></td>
-	<td><div id="list" ></div>
-	<td></td>
-	
-		<H3>[ <A href="<?php echo U('Admin/Public/login');?>">后台管理</a> ]</H3> 
-	</td>
-  </tr>
- </table>
- 
- -------------------------------------------------------------------------<br>
- 
- 
 </head>
+
+<body>
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="521" height="294" id="FLVPlayer">
+  <param name="movie" value="FLVPlayer_Progressive.swf" />
+  <param name="quality" value="high" />
+  <param name="wmode" value="opaque" />
+  <param name="scale" value="noscale" />
+  <param name="salign" value="lt" />
+  <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_1&amp;streamName=1&amp;autoPlay=true&amp;autoRewind=true" />
+  <param name="swfversion" value="8,0,0,0" />
+  <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf" />
+  <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="521" height="294">
+    <!--<![endif]-->
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="scale" value="noscale" />
+    <param name="salign" value="lt" />
+    <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Clear_Skin_1&amp;streamName=1&amp;autoPlay=true&amp;autoRewind=true" />
+    <param name="swfversion" value="8,0,0,0" />
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+    <div>
+      <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" /></a></p>
+    </div>
+    <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+</object>
+
+<script type="text/javascript">
+swfobject.registerObject("FLVPlayer");
+</script>
+
+</body>
+
+
+
 <body onLoad="document.login.account.focus()" >
 <form method='post' name="login"  ACTION="/index.php/home/Index/joinin">
 <div class="tCenter hMargin">
@@ -134,16 +124,4 @@ a:active {
 </div>
 </form>
 </body>
-
-
- 
-</div>
-<div style="background:white;float:left;width:60%">
-<body>
-  <p><img src="__PUBLIC__/Images/1.jpg" width="434" height="300"><span class="STYLE2">出品人6051</span></p>
-  <p><a href="拖动到一个文件以创建链接"><img src="__PUBLIC__/Images/2.jpg" width="259" height="333" border="0" usemap="#Map">
-<map name="Map"><area shape="circle" coords="115,271,47" href="home/Index/joinin" target="_top">
-</map></a></p>
-  </body></div>
- </body>
 </html>
