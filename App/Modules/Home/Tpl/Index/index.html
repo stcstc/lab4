@@ -16,6 +16,68 @@
 </table>
 
 
+<h1 align = "center"> <font size = "6" color = "green">师生情深 </font></h1>
+
+<h3>logo</h6>
+<img src = "__PUBLIC__/Images/8.gif"
+
+<table>
+<tr>
+
+<td>
+<form method='post' name="login"  ACTION="/index.php/home/Index/joinin">
+<tr class="row" ><Th colspan="2" class="tCenter space" ><img src="__PUBLIC__/Images/1.jpg" width="100" height="100" border="0" alt="" align="absmiddle"> <font size="7" face="verdana" color="red"">我要学习！！</font></th></tr>
+<tr class="row" ><td class="tRight" width="25%"><font size="5" face="verdana" color="blue"">帐 号：</font></td><td><input type="text" class="medium bLeftRequire" check="Require" warning="请输入帐号" name="student"></td></tr>
+<tr class="row" ><td class="tRight"><font size="5" face="verdana" color="blue"">密 码：</font></td><td><input type="password" class="medium bLeftRequire" check="Require" warning="请输入密码" name="mima"></td></tr>
+<tr class="row" ><td class="tCenter" align="justify" colspan="2">
+<input type="submit" value="学 生 注 册" class="submit medium hMargin">
+</td></tr>
+<tr><td height="3" colspan="2" class="bottomTd" ></td></tr>
+</form>
+</td>
+
+<td>
+<form method='post' name="login"  ACTION="/index.php/home/Index/joinintr">
+<tr class="row" ><Th colspan="2" class="tCenter space" ><img src="__PUBLIC__/Images/2.jpg" width="100" height="100" border="0" alt="" align="absmiddle"><font size="7" face="verdana" color="red"">我要加入！！ </font></th></tr>
+<tr class="row" ><td class="tRight" width="25%"><font size="5" face="verdana" color="blue"">账 号：</font></td><td><input type="text" class="medium bLeftRequire" check="Require" warning="请输入帐号" name="teacher"></td></tr>
+<tr class="row" ><td class="tRight"><font size="5" face="verdana" color="blue"">密 码：</font></td><td><input type="password" class="medium bLeftRequire" check="Require" warning="请输入密码" name="mima"></td></tr>
+<tr class="row" ><td class="tCenter" align="justify" colspan="2">
+<input type="submit" value="教 师 注 册" class="submit medium hMargin">
+</td></tr>
+<tr><td height="3" colspan="2" class="bottomTd" ></td></tr>
+</form>
+</td>
+
+<td>
+<form method='post' name="login"  ACTION="/index.php/home/Index/login">
+<tr class="row" ><Th colspan="2" class="tCenter space" ><img src="__PUBLIC__/Images/3.jpg" width="100" height="100" border="0" alt="" align="absmiddle"><font size="7" face="verdana" color="red"">有事找老师！ </font></th></tr>
+<tr class="row" ><td class="tRight" width="25%"><font size="5" face="verdana" color="blue"">帐 号：</font></td><td><input type="text" class="medium bLeftRequire" check="Require" warning="请输入帐号" name="student"></td></tr>
+<tr class="row" ><td class="tRight"><font size="5" face="verdana" color="blue"">密 码：</font></td><td><input type="password" class="medium bLeftRequire" check="Require" warning="请输入密码" name="password"></td></tr>
+<tr class="row" ><td class="tCenter" align="justify" colspan="2">
+<input type="submit" value="学 生 登 录" class="submit medium hMargin">
+</td></tr>
+<tr><td height="3" colspan="2" class="bottomTd" ></td></tr>
+</form>
+</td>
+
+<td>
+<form method='post' name="login"  ACTION="/index.php/home/Index/logintr">
+<tr class="row" ><Th colspan="2" class="tCenter space" ><img src="__PUBLIC__/Images/4.jpg" width="100" height="100" border="0" alt="" align="absmiddle"><font size="7" face="verdana" color="red"">没事来约我！ </font></th></tr>
+<tr class="row" ><td class="tRight" width="25%"><font size="5" face="verdana" color="blue"">帐 号：</font></td><td><input type="text" class="medium bLeftRequire" check="Require" warning="请输入帐号" name="teacher"></td></tr>
+<tr class="row" ><td class="tRight"><font size="5" face="verdana" color="blue"">密 码：</font></td><td><input type="password" class="medium bLeftRequire" check="Require" warning="请输入密码" name="password"></td></tr>
+<tr class="row" ><td class="tCenter" align="justify" colspan="2">
+<input type="submit" value="教 师 登 录" class="submit medium hMargin">
+</td></tr>
+<tr><td height="3" colspan="2" class="bottomTd" ></td></tr>
+</form>
+</td>
+
+</tr>
+</table>
+
+</body>
+</html>
+
 
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="522" height="255" id="FLVPlayer">
   <param name="movie" value="FLVPlayer_Progressive.swf" />
@@ -83,65 +145,3 @@ swfobject.registerObject("FLVPlayer");
 <script type="text/javascript">
 swfobject.registerObject("FLVPlayer");
 </script>
-
-<h1 align = "center"> <font size = "6" color = "green">师生情深 </font></h1>
-
-<h3>logo</h6>
-<img src = "__PUBLIC__/Images/8.gif"
-
-<table>
-<tr>
-
-<td>
-<form method='post' name="login"  ACTION="/index.php/home/Index/joinin">
-<tr class="row" ><Th colspan="2" class="tCenter space" ><img src="__PUBLIC__/Images/1.jpg" width="100" height="100" border="0" alt="" align="absmiddle"> <font size="7" face="verdana" color="red"">我要学习！！</font></th></tr>
-<tr class="row" ><td class="tRight" width="25%"><font size="5" face="verdana" color="blue"">帐 号：</font></td><td><input type="text" class="medium bLeftRequire" check="Require" warning="请输入帐号" name="student"></td></tr>
-<tr class="row" ><td class="tRight"><font size="5" face="verdana" color="blue"">密 码：</font></td><td><input type="password" class="medium bLeftRequire" check="Require" warning="请输入密码" name="mima"></td></tr>
-<tr class="row" ><td class="tCenter" align="justify" colspan="2">
-<input type="submit" value="学 生 注 册" class="submit medium hMargin">
-</td></tr>
-<tr><td height="3" colspan="2" class="bottomTd" ></td></tr>
-</form>
-</td>
-
-<td>
-<form method='post' name="login"  ACTION="/index.php/home/Index/joinintr">
-<tr class="row" ><Th colspan="2" class="tCenter space" ><img src="__PUBLIC__/Images/2.jpg" width="100" height="100" border="0" alt="" align="absmiddle"><font size="7" face="verdana" color="red"">我要加入！！ </font></th></tr>
-<tr class="row" ><td class="tRight" width="25%"><font size="5" face="verdana" color="blue"">账 号：</font></td><td><input type="text" class="medium bLeftRequire" check="Require" warning="请输入帐号" name="teacher"></td></tr>
-<tr class="row" ><td class="tRight"><font size="5" face="verdana" color="blue"">密 码：</font></td><td><input type="password" class="medium bLeftRequire" check="Require" warning="请输入密码" name="mima"></td></tr>
-<tr class="row" ><td class="tCenter" align="justify" colspan="2">
-<input type="submit" value="教 师 注 册" class="submit medium hMargin">
-</td></tr>
-<tr><td height="3" colspan="2" class="bottomTd" ></td></tr>
-</form>
-</td>
-
-<td>
-<form method='post' name="login"  ACTION="/index.php/home/Index/login">
-<tr class="row" ><Th colspan="2" class="tCenter space" ><img src="__PUBLIC__/Images/3.jpg" width="100" height="100" border="0" alt="" align="absmiddle"><font size="7" face="verdana" color="red"">有事找老师！ </font></th></tr>
-<tr class="row" ><td class="tRight" width="25%"><font size="5" face="verdana" color="blue"">帐 号：</font></td><td><input type="text" class="medium bLeftRequire" check="Require" warning="请输入帐号" name="student"></td></tr>
-<tr class="row" ><td class="tRight"><font size="5" face="verdana" color="blue"">密 码：</font></td><td><input type="password" class="medium bLeftRequire" check="Require" warning="请输入密码" name="password"></td></tr>
-<tr class="row" ><td class="tCenter" align="justify" colspan="2">
-<input type="submit" value="学 生 登 录" class="submit medium hMargin">
-</td></tr>
-<tr><td height="3" colspan="2" class="bottomTd" ></td></tr>
-</form>
-</td>
-
-<td>
-<form method='post' name="login"  ACTION="/index.php/home/Index/logintr">
-<tr class="row" ><Th colspan="2" class="tCenter space" ><img src="__PUBLIC__/Images/4.jpg" width="100" height="100" border="0" alt="" align="absmiddle"><font size="7" face="verdana" color="red"">没事来约我！ </font></th></tr>
-<tr class="row" ><td class="tRight" width="25%"><font size="5" face="verdana" color="blue"">帐 号：</font></td><td><input type="text" class="medium bLeftRequire" check="Require" warning="请输入帐号" name="teacher"></td></tr>
-<tr class="row" ><td class="tRight"><font size="5" face="verdana" color="blue"">密 码：</font></td><td><input type="password" class="medium bLeftRequire" check="Require" warning="请输入密码" name="password"></td></tr>
-<tr class="row" ><td class="tCenter" align="justify" colspan="2">
-<input type="submit" value="教 师 登 录" class="submit medium hMargin">
-</td></tr>
-<tr><td height="3" colspan="2" class="bottomTd" ></td></tr>
-</form>
-</td>
-
-</tr>
-</table>
-
-</body>
-</html>
